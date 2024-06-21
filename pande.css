@@ -404,7 +404,7 @@ input[name=post] {
   margin-bottom: 32px;
 }
 .headerbar {
-  height: 55vh;
+    height: 55vh;
 }
 .linklist.top {
   border-width: 0;
@@ -3693,6 +3693,19 @@ section.rp.halfblood {
   .halfblood .c-right {
     border-top: 1px solid #84C477;
   }
+}
+
+@media (max-width: 800px) {
+    #fa_notifications::before {
+        display: none;
+    } 
+
+    #fa_notifications strong{
+      text-align: center;
+    display: block;
+    padding: 15px 6px;
+    }
+ 
 }
 .stats {
   width: 100%;
